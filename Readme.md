@@ -12,22 +12,24 @@ Noted:
 via link: https://learn.microsoft.com/vi-vn/dotnet/csharp/language-reference/keywords/base
 
 ### Pratice docker: 
-create docker file for .net 7\
-docker build -t <dockerid>/<dockername> .  ( for build )\
-docker push <dockerid>/<dockername> ( for push to docker hub )\
-docker run -p <localport>:<dockerport> -d <dockerid>/<dockername>\
-docker ps (list all item docker)\
-docker stop <dockerContainerId> (stop container id)\
-docker start <dockerContainerId> (start container id)\
+create docker file for .net 7\\
+command syntax im was learning for docker:\\
+
+*** docker build -t <dockerid>/<dockername> .  ( for build )*** \\
+*** docker push <dockerid>/<dockername> ( for push to docker hub )*** \\
+*** docker run -p <localport>:<dockerport> -d <dockerid>/<dockername>*** \\
+*** docker ps (list all item docker)*** \\
+*** docker stop <dockerContainerId> (stop container id)*** \\
+*** docker start <dockerContainerId> (start container id)*** \\
 
 ### Learn Kubenetes (new knowledge for me)
-I created a file yaml for deployment "K8S/platforms-depl.yaml"\
-I created a file yaml NodePort Service  "K8S/platforms-np-srv.yaml"
+I created a file yaml for deployment "K8S/platforms-depl.yaml"\\
+I created a file yaml NodePort Service  "K8S/platforms-np-srv.yaml" \\
 
-command syntax im was learning for k8s:\
-kubectl apply -f <yaml name file> \
-kubectl get deployments\
-kubectl get pods\
-kubectl delete deployment <metadata.name>\
-kubectl get services (for get services) \
-kubectl delete svc <servicename>\
+command syntax im was learning for k8s: \\
+*** kubectl apply -f <yamlnamefile>*** \\
+*** kubectl get deployments *** \\
+*** kubectl get pods *** \\
+*** kubectl delete deployment <metadata.name> *** \\
+*** kubectl get services (for get services) *** \\
+*** kubectl delete svc <servicename> *** \\
