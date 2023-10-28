@@ -12,24 +12,24 @@ Noted:
 via link: https://learn.microsoft.com/vi-vn/dotnet/csharp/language-reference/keywords/base
 
 ### Pratice docker: 
-create docker file for .net 7\
-command syntax im was learning for docker:\
+create docker file for .net 7<br/>
+command syntax im was learning for docker:<br/>
 
-*** docker build -t <dockerid>/<dockername> .  ( for build )*** \
-*** docker push <dockerid>/<dockername> ( for push to docker hub )*** \
-*** docker run -p <localport>:<dockerport> -d <dockerid>/<dockername>*** \
-*** docker ps (list all item docker)*** \
-*** docker stop <dockerContainerId> (stop container id)*** \
-*** docker start <dockerContainerId> (start container id)*** \
+*** docker build -t <dockerid>/<dockername> .  ( for build ) *** <br/>
+*** docker push <dockerid>/<dockername> ( for push to docker hub )  *** <br/>
+*** docker run -p <localport>:<dockerport> -d <dockerid>/<dockername> *** <br/>
+*** docker ps (list all item docker)*** <br/>
+*** docker stop <dockerContainerId> (stop container id)*** <br/>
+*** docker start <dockerContainerId> (start container id)*** <br/>
 
 ### Learn Kubenetes (new knowledge for me)
-I created a file yaml for deployment "K8S/platforms-depl.yaml"\
-I created a file yaml NodePort Service  "K8S/platforms-np-srv.yaml" \
+I created a file yaml for deployment "K8S/platforms-depl.yaml"<br/>
+I created a file yaml NodePort Service  "K8S/platforms-np-srv.yaml" <br/>
 
-command syntax im was learning for k8s: \
-*** kubectl apply -f <yamlnamefile>*** \
-*** kubectl get deployments *** \
-*** kubectl get pods *** \
-*** kubectl delete deployment <metadata.name> *** \
-*** kubectl get services (for get services) *** \
-*** kubectl delete svc <servicename> *** \
+command syntax im was learning for k8s: <br/>
+*** kubectl apply -f <yamlnamefile>*** <br/>
+*** kubectl get deployments *** <br/>
+*** kubectl get pods *** <br/>
+*** kubectl delete deployment <metadata.name> *** <br/>
+*** kubectl get services (for get services) *** <br/>
+*** kubectl delete svc <servicename> *** 
