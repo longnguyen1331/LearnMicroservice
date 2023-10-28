@@ -17,7 +17,7 @@ command syntax im was learning for docker:<br/>
 
 *** docker build -t <dockerid>/<dockername> .  ( for build ) *** <br/>
 *** docker push <dockerid>/<dockername> ( for push to docker hub )  *** <br/>
-*** docker run -p localPortNumber:dockerPortNumber -d <dockerid>/<dockername> *** <br/>
+*** docker run -p localPortNumber:dockerPortNumber -d dockerid/dockername *** <br/>
 *** docker ps (list all item docker)*** <br/>
 *** docker stop <dockerContainerId> (stop container id)*** <br/>
 *** docker start <dockerContainerId> (start container id)*** <br/>
