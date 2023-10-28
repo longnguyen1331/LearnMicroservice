@@ -22,7 +22,9 @@ docker start <dockerContainerId> (start container id)\
 
 ### Learn Kubenetes (new knowledge for me)
 I created a file yaml for deployment "K8S/platforms-depl.yaml"\
-command syntax for k8s:\
+I created a file yaml NodePort Service  "K8S/platforms-np-srv.yaml"
+
+command syntax im was learning for k8s:\
 kubectl apply -f <yaml name file> \
 kubectl get deployments\
 kubectl get pods\
