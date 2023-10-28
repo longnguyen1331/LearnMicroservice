@@ -19,3 +19,13 @@ docker run -p <localport>:<dockerport> -d <dockerid>/<dockername>\
 docker ps (list all item docker)\
 docker stop <dockerContainerId> (stop container id)\
 docker start <dockerContainerId> (start container id)\
+
+### Learn Kubenetes (new knowledge for me)
+I created a file yaml for deployment "K8S/platforms-depl.yaml"\
+command syntax for k8s:\
+kubectl apply -f <yaml name file> \
+kubectl get deployments\
+kubectl get pods\
+kubectl delete deployment <metadata.name>\
+kubectl get services (for get services) \
+kubectl delete svc <servicename>\
