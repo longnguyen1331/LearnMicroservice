@@ -12,10 +12,10 @@ Noted:
 via link: https://learn.microsoft.com/vi-vn/dotnet/csharp/language-reference/keywords/base
 
 ### Pratice docker: 
-create docker file for .net 7
-docker build -t <dockerid>/<dockername> .  ( for build )
-docker push <dockerid>/<dockername> ( for push to docker hub )
-docker run -p <localport>:<dockerport> -d <dockerid>/<dockername>
-docker ps (list all item docker)
-docker stop <dockerContainerId> (stop container id)
-docker start <dockerContainerId> (start container id)
+create docker file for .net 7\
+docker build -t <dockerid>/<dockername> .  ( for build )\
+docker push <dockerid>/<dockername> ( for push to docker hub )\
+docker run -p <localport>:<dockerport> -d <dockerid>/<dockername>\
+docker ps (list all item docker)\
+docker stop <dockerContainerId> (stop container id)\
+docker start <dockerContainerId> (start container id)\
