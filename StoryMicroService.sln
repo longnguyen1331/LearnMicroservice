@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandsService", "CommandsService\CommandsService.csproj", "{772E0740-3BDA-417C-887F-9340B7B04ADC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "PlatformService\PlatformService.csproj", "{869351C1-3FE7-4728-8083-C703304C2ED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{772E0740-3BDA-417C-887F-9340B7B04ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772E0740-3BDA-417C-887F-9340B7B04ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772E0740-3BDA-417C-887F-9340B7B04ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772E0740-3BDA-417C-887F-9340B7B04ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869351C1-3FE7-4728-8083-C703304C2ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869351C1-3FE7-4728-8083-C703304C2ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869351C1-3FE7-4728-8083-C703304C2ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869351C1-3FE7-4728-8083-C703304C2ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0C65829-6B7F-46C4-BABF-7B6F8BCA09F1}
+	EndGlobalSection
+EndGlobal

@@ -33,3 +33,4 @@ command syntax im was learning for k8s: <br/>
 *** kubectl delete deployment <metadata.name> *** <br/>
 *** kubectl get services (for get services) *** <br/>
 *** kubectl delete svc <servicename> *** 
+*** kubectl rollout restart deployment <deploymentname> *** 
