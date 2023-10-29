@@ -5,11 +5,6 @@ using PlatformService.Data;
 using PlatformService.Dtos;
 using PlatformService.Models;
 using PlatformService.SyncDataServices.Http;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace PlatformService.Controllers
 {
     [Route("api/[controller]")]
@@ -59,7 +54,9 @@ namespace PlatformService.Controllers
 
             try
             {
+                Console.WriteLine($"--> start send synchronously");
                 await _commandDataClient.SendPlatformToCommand(platformReadDto);
+                Console.WriteLine($"--> end send synchronously:");
             }
             catch (Exception ex)
             {

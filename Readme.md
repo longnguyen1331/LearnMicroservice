@@ -34,3 +34,14 @@ command syntax im was learning for k8s: <br/>
 *** kubectl get services (for get services) *** <br/>
 *** kubectl delete svc <servicename> *** 
 *** kubectl rollout restart deployment <deploymentname> *** 
+
+
+### Day 2:
+### Im Learning Kubernetes continue 
+
+Knowledge today i'll remember and practice is: PV, PVC, StorageClass. 
+Today, I created a file yaml for datastorage "K8S/local-pvc.yaml"
+
+*** kubectl get pvc (for get PVC) ***
+*** kubectl create secret generic mssql --from-literal=SA_PASSWORD="123Abc!!!" ***
+*** kubectl delete secret mssql ***
