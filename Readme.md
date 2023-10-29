@@ -40,8 +40,8 @@ command syntax im was learning for k8s: <br/>
 ### Im Learning Kubernetes continue 
 
 Knowledge today i'll remember and practice is: PV, PVC, StorageClass. <br/>
-Today, I created a file yaml for datastorage "K8S/local-pvc.yaml" to create PersistentVolumeClaim for mssql<br/>
-Today, I created a file yaml for datastorage "K8S/mssql-plat-depl" for deployment mssql with map ip of mssql to 1433 and loadbalancer for mssql<br/>
+Today, I created a file yaml "K8S/local-pvc.yaml" to create PersistentVolumeClaim for mssql<br/>
+Today, I created a file yaml for datastorage "K8S/mssql-plat-depl.yaml" for deployment mssql with map port of mssql to 1433 and loadbalancer for mssql<br/>
 
 *** kubectl get pvc (for get PVC) ***<br/>
 *** kubectl create secret generic mssql --from-literal=SA_PASSWORD="123Abc!!!" ***<br/>
