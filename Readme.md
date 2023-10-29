@@ -39,9 +39,9 @@ command syntax im was learning for k8s: <br/>
 ### Day 2:
 ### Im Learning Kubernetes continue 
 
-Knowledge today i'll remember and practice is: PV, PVC, StorageClass. 
-Today, I created a file yaml for datastorage "K8S/local-pvc.yaml"
+Knowledge today i'll remember and practice is: PV, PVC, StorageClass. <br/>
+Today, I created a file yaml for datastorage "K8S/local-pvc.yaml"<br/>
 
-*** kubectl get pvc (for get PVC) ***
-*** kubectl create secret generic mssql --from-literal=SA_PASSWORD="123Abc!!!" ***
-*** kubectl delete secret mssql ***
+*** kubectl get pvc (for get PVC) ***<br/>
+*** kubectl create secret generic mssql --from-literal=SA_PASSWORD="123Abc!!!" ***<br/>
+*** kubectl delete secret mssql ***<br/>
