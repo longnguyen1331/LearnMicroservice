@@ -1,20 +1,39 @@
+using Microsoft.EntityFrameworkCore;
 using PlatformService.Models;
 
 namespace PlatformService.Data
 {
     public static class PrepDb
     {
-        public static void PrePopulation(IApplicationBuilder app)
+        public static void PrePopulation(IApplicationBuilder app, bool isProduction)
         {
             using (var serviceScope = app.ApplicationServices.CreateScope())
             {
-                SeedData(serviceScope.ServiceProvider.GetService<AppDbContext>());
+                SeedData(serviceScope.ServiceProvider.GetService<AppDbContext>(), isProduction);
             }
         }
 
-        private static void SeedData(AppDbContext? context)
+        private static void SeedData(AppDbContext? context, bool isProduction)
         {
-            if (context != null)
+            if (isProduction)
+            {
+                Console.WriteLine("--> Attemping to apply migraitions...");
+                try
+                {
+                    if (context is not null)
+                    {
+                        context.Database.Migrate();
+                    }
+                    else Console.WriteLine($"Could not run migration context is null");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Could not run migration: {ex.Message}");
+
+                }
+            }
+
+            if (context is not null)
             {
                 if (!context.Platforms.Any())
                 {
@@ -29,7 +48,8 @@ namespace PlatformService.Data
 
                 }
                 else Console.WriteLine("--> We already have data");
-            } else Console.WriteLine("--> No context already");
+            }
+            else Console.WriteLine("--> No context already");
         }
     }
 }
