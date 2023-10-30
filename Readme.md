@@ -46,3 +46,11 @@ Today, I created a file yaml for datastorage "K8S/mssql-plat-depl.yaml" for depl
 *** kubectl get pvc (for get PVC) ***<br/>
 *** kubectl create secret generic mssql --from-literal=SA_PASSWORD="123Abc!!!" ***<br/>
 *** kubectl delete secret mssql ***<br/>
+
+
+### Day 3: 
+### Create multi rest api url
+### RabbitMQ on kubernetes (new knowledge)
+1.Setting create containerzation RabbitMQ on kubernetes (K8S folder) <br/>
+2.Published event to RabbitMQ (PlatformService project folder) <br/>
+3.Subscribe event from RabbitMQ (CommandService project folder) <br/>

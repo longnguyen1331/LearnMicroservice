@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\StoryMicroService\\CommandsService\\CommandsService.csproj": {}
+    "D:\\StoryMicroservice\\LearnMicroservice\\CommandsService\\CommandsService.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\StoryMicroService\\CommandsService\\CommandsService.csproj": {
+    "D:\\StoryMicroservice\\LearnMicroservice\\CommandsService\\CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\StoryMicroService\\CommandsService\\CommandsService.csproj",
+        "projectUniqueName": "D:\\StoryMicroservice\\LearnMicroservice\\CommandsService\\CommandsService.csproj",
         "projectName": "CommandsService",
-        "projectPath": "D:\\Projects\\StoryMicroService\\CommandsService\\CommandsService.csproj",
-        "packagesPath": "C:\\Users\\THIS PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\StoryMicroService\\CommandsService\\obj\\",
+        "projectPath": "D:\\StoryMicroservice\\LearnMicroservice\\CommandsService\\CommandsService.csproj",
+        "packagesPath": "C:\\Users\\longnhp.EPAYJSC\\.nuget\\packages\\",
+        "outputPath": "D:\\StoryMicroservice\\LearnMicroservice\\CommandsService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\THIS PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\longnhp.EPAYJSC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[7.0.13, )"
             },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -78,6 +82,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.12, 7.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.12, 7.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.12, 7.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.12, 7.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
         }
       }
     }
