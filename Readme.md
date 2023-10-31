@@ -55,6 +55,9 @@ Today, I created a file yaml for datastorage "K8S/mssql-plat-depl.yaml" for depl
 2.Published event to RabbitMQ (PlatformService project folder) <br/>
 3.Subscribe event from RabbitMQ (CommandService project folder) <br/>
 
+### Day 4:
 ### gRPC
 What is it ? https://www.wallarm.com/what/the-concept-of-grpc
 Why use gRPC instead of RestAPI ? 
+
+
